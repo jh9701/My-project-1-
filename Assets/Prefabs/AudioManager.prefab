@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1837601439510733233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2639890571296239213}
+  - component: {fileID: 9142276976049850171}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2639890571296239213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837601439510733233}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 315.21347, y: 161.08458, z: -11.95499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9142276976049850171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837601439510733233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85648c005294714dacee9807f10d962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: footstep 1
+    clip: {fileID: 8300000, guid: f4bc9f0dc3b5a8d44b8b26b7037f2df5, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: footstep 2
+    clip: {fileID: 8300000, guid: 3815ac593c7329942b9979f270f55470, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: footstep 3
+    clip: {fileID: 8300000, guid: 3066da6eaa58bcb48b416f1a6f9bab5c, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: footstep 4
+    clip: {fileID: 8300000, guid: 24d812f3be4133e4c9319fe6e8c0314b, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: type_sound
+    clip: {fileID: 8300000, guid: 58a5dd5888761af4dbff225d52caf926, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: enter_sound
+    clip: {fileID: 8300000, guid: 4fbc62a75b72f6d42b33069b6c067e1d, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: rain
+    clip: {fileID: 8300000, guid: 56ec30861f0029d49a35b34328fcd194, type: 3}
+    Volumn: 0.3
+    loop: 1
+  - name: ok
+    clip: {fileID: 8300000, guid: 4fbc62a75b72f6d42b33069b6c067e1d, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: beep
+    clip: {fileID: 8300000, guid: 65889d2d8d24e4f43bff66afb409268e, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: item_pickup
+    clip: {fileID: 8300000, guid: f8059841fffda69428b189966733fc63, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: slime_sound
+    clip: {fileID: 8300000, guid: 5179701818d49fd49b8640ad13278456, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: cancel_sound
+    clip: {fileID: 8300000, guid: 65889d2d8d24e4f43bff66afb409268e, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: damage_sound
+    clip: {fileID: 8300000, guid: ee8c0d7adda518b4a8a2372eda01e015, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: blow_sound
+    clip: {fileID: 8300000, guid: 345e60dc7c350dc4994eb3726e992b27, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: switch3_sound
+    clip: {fileID: 8300000, guid: 73eba3fcf5a6d1645af103fc0d7258b9, type: 3}
+    Volumn: 1
+    loop: 0
+  - name: equip1
+    clip: {fileID: 8300000, guid: ea8927733f0c2404387b99ad68116e7c, type: 3}
+    Volumn: 1
+    loop: 0
